@@ -133,4 +133,14 @@
             app:layout_row="5" />
 
     </androidx.gridlayout.widget.GridLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="110dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginBottom="28dp"
+        android:text="Портнов А.Е. Т-423901-ИСТ"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
